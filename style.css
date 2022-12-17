@@ -1,0 +1,53 @@
+body{
+    background-color: lightblue;
+}
+nav{
+display: flex;
+justify-content: space-between;
+height:  50px;
+margin: 20px 30px;
+font-size: 2rem;
+font-weight: bold;
+}
+nav input{
+padding: 2px;
+border-radius: 2px;
+box-shadow: inset 2px 2px rgba(10, 10, 10, 0.26);
+}
+.search{
+font-size: 15px;
+padding: 0 5px;
+border-radius: 5px;
+}
+main{
+text-align: center;
+width: 800px;
+margin: 50px 0 100px 0;
+}
+main #input{
+width: 500px;
+padding: 5px;
+font-size: 20px;
+}
+main button{
+padding: 6px;
+font-size: 18px;
+border-radius: 3px;
+background-color: rgb(52, 52, 160);
+color: white;
+}
+.item{
+margin-bottom: 10px;
+width: 500px;
+background-color: aliceblue;
+height: auto;
+padding: 2px;
+margin-left: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 20px;
+}
+span{
+cursor: pointer;
+}
